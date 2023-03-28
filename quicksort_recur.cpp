@@ -6,8 +6,7 @@ int partition(vector<ll> &arr ,int p,int r){
     int x=arr[r];
     for(int j=p;j<r;j++){
         if(arr[j]<=x){
-            i++;
-            
+            i++; 
             swap(arr[i],arr[j]);          
         }
     }
